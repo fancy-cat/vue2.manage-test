@@ -5,12 +5,12 @@
       <el-row class="tac" style="min-height:100%;">
         <el-col :span="4" style="min-height:100%; background-color: #324057">
           <el-menu
-            default-active="1"
+            default-active="/home"
             class="el-menu-vertical-demo"
             background-color="#48576a"
             text-color="#fff"
             router>
-            <el-menu-item index="1"><i class="el-icon-menu"></i>首页</el-menu-item>
+            <el-menu-item index="/home"><i class="el-icon-menu"></i>首页</el-menu-item>
             <el-submenu index="2">
               <template slot="title"><i class="el-icon-document"></i>数据管理</template>
               <el-menu-item index="userList">用户列表</el-menu-item>
